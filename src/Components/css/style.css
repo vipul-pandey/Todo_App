@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+}
+.main-div{
+    background-color:#262626;
+    background-image: linear-gradient(to right, #f34a45, #784749);
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;  
+}
+.center-div{
+    background-color: #000;
+    width:38rem;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+    border: 3px solid yellow;
+}
+
+.center-div h1{
+    width: 80%;
+    margin: auto;
+    margin-top:2rem;
+    margin-bottom: 2.5rem;
+    padding: .6rem;
+    /* font-size: 2.7rem; */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Sigmar One', cursive;
+    border-right: .3rem solid rgb(68, 189, 52);
+    border-bottom: .3rem solid rgb(74, 161, 47);
+    border-bottom-right-radius: 0.8rem;
+    background: linear-gradient(to right, #690d0d, #4d069e, #09e07c);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.inputfield{
+    margin: 1.5rem auto;
+    justify-content: space-between;
+    display: flex;
+    width: 80%;
+    height: 4rem;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+input[type=text]{
+    margin: 0.6rem;
+    width: 100%;
+    padding: .4rem 0.2rem;
+    border: none;
+    outline-style: none;
+    font-size: 1.1rem;
+    background-color: #fff;
+    font-family: 'Squada One', cursive;
+    color: #000;
+    font-weight: 600;
+}
+::placeholder{
+    color: #000;
+    font-weight: 600;
+}
+.fa{
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    color:rgb(145, 30, 30);
+}
+
+.datafield{
+    width: 80%;
+    height: 4rem;
+    display: flex;
+    justify-content:space-between;
+    margin: 0.8rem auto;
+    background-color:#171f3d;
+    border-radius: 6px;
+}
+.datafield p{
+    width: 90%;
+    margin: 0.1rem;
+    padding: 0.9rem 0.4rem;
+    overflow: hidden;
+    font-size: large;
+    text-overflow: unset;
+    color: rgb(209, 8, 209);  
+    font-family: 'Squada One', cursive;
+}
+.datafield:hover{
+    background-color: rgb(236, 227, 227);
+}
+.datafield p:hover{
+    font-size: 1.2rem;
+}
+.fa:hover{
+    color: black;
+}
+
+@media only screen and (max-width:1024px){
+    .center-div h1{
+        font-size: 2.2rem;
+        margin-top: 2.2rem;
+        margin-bottom: 2.8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .center-div h1{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 542px){
+    .center-div {
+       width: 28rem;
+    }
+    .center-div h1{
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width:416px){
+    .center-div{
+        width: 21rem;
+    }
+    .center-div h1{
+        font-size: 1.3rem;
+        margin-top: 1.2rem;
+        margin-bottom: 1rem;
+    }
+}
+
