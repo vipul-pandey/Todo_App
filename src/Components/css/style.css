@@ -26,7 +26,6 @@
     margin-top:2rem;
     margin-bottom: 2.5rem;
     padding: .6rem;
-    /* font-size: 2.7rem; */
     text-align: center;
     text-transform: uppercase;
     font-family: 'Sigmar One', cursive;
@@ -55,7 +54,7 @@ input[type=text]{
     outline-style: none;
     font-size: 1.1rem;
     background-color: #fff;
-    font-family: 'Squada One', cursive;
+    font-family: 'Squada One',Baloo Tammudu 2, 'cursive';
     color: #000;
     font-weight: 600;
 }
@@ -87,7 +86,7 @@ input[type=text]{
     font-size: large;
     text-overflow: unset;
     color: rgb(209, 8, 209);  
-    font-family: 'Squada One', cursive;
+    font-family: 'Squada One',Baloo Tammudu 2, 'cursive';
 }
 .datafield:hover{
     background-color: rgb(236, 227, 227);
